@@ -3,9 +3,10 @@ import { SIZES } from "../../constants/theme";
 
 const styles = StyleSheet.create({
   image: {
-    resizeMode: "cover",
+    resizeMode: "stretch",
     width: SIZES.width,
-    height: SIZES.height,
+    // height: SIZES.height,
+    height: "100%",
   },
   stack: {
     position: "absolute",

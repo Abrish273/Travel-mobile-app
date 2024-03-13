@@ -9,15 +9,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "@react-navigation/bottom-tabs": "^6.5.14",
+    "@react-navigation/material-top-tabs": "^6.6.10",
     "@react-navigation/native": "^6.1.12",
     "@react-navigation/native-stack": "^6.9.20",
     "@react-navigation/stack": "^6.3.23",
+    "axios": "^1.6.7",
     "expo": "~50.0.7",
     "expo-font": "^11.10.3",
     "expo-splash-screen": "^0.26.4",
     "expo-status-bar": "~1.11.1",
+    "formik": "^2.4.5",
     "react": "18.2.0",
-    "react-native": "0.73.4"
+    "react-native": "0.73.4",
+    "react-native-maps": "^1.10.3",
+    "react-native-tab-view": "^3.5.2",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
